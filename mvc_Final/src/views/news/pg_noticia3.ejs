@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia</title>
+    <script src="\controllers\news.js"></script>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="\style\style.css">
+</head>
+<body>
+    <header>
+        <!-- Nome do programa Ex: Noticia123 -->
+        <h1>Baguga News</h1>
+
+        <!-- Links para notícias específicas -->
+        <nav>
+            <a href="pg_inicial.ejs">Home</a>
+            <a href="pg_noticia.ejs">Notícia 1</a>
+            <a href="pg_noticia2.ejs">Notícia 2</a>
+        </nav>
+    </header>
+    
+    <!-- Acessar o JSON e mostrar as notícias -->
+    <main>
+        <section class="noticia-container">
+            <!-- Nome da notícia -->
+            <h2 id="tt"></h2>
+            <!-- Artigo da notícia -->
+            <p id="tm"></p>
+        </section>
+    </main>
+
+</body>
+</html>
